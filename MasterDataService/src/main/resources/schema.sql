@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS airport;
+
+CREATE TABLE airport (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  airport_code VARCHAR(250) NOT NULL,
+  airport_name VARCHAR(250) NOT NULL,
+  city_name VARCHAR(250) NOT NULL,
+  coordinates VARCHAR(250) NOT NULL
+);
